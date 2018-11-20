@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="deff2329-1739-4bb5-827b-e2fb6e5bb9dd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExemptionStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExemptionStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Invoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Invoice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NormalStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NormalStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/InvoiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/InvoiceTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,33 +29,36 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="gitignore" value="2" />
-          <entry key="java" value="25" />
+          <entry key="gitignore" value="5" />
+          <entry key="java" value="40" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Git file" value="1" />
-          <entry key="JAVA" value="25" />
+          <entry key="Git file" value="4" />
+          <entry key="JAVA" value="40" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="7" />
-          <entry key="java" value="2427" />
+          <entry key="gitignore" value="2" />
+          <entry key="java" value="2642" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2427" />
+          <entry key="Git file" value="2" />
+          <entry key="JAVA" value="2642" />
           <entry key="PLAIN_TEXT" value="7" />
         </counts>
       </usages-collector>
@@ -61,8 +69,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BillingStrategy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="49" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="49" />
+            <state>
+              <caret column="21" lean-forward="true" selection-start-column="21" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -70,9 +78,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Customer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            <state relative-caret-position="180">
+              <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#118#119#0" expanded="true" />
                 <element signature="e#165#166#0" expanded="true" />
                 <element signature="e#209#210#0" expanded="true" />
@@ -87,17 +96,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ExemptionStrategy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="57" selection-start-line="4" selection-start-column="57" selection-end-line="4" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Invoice.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" column="26" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
+            <state>
+              <caret column="59" selection-start-column="59" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -105,8 +105,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/InvoiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="480">
+              <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -114,11 +114,29 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Invoice.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="36" column="41" lean-forward="true" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1005">
-              <caret line="67" column="10" lean-forward="true" selection-start-line="67" selection-start-column="10" selection-end-line="67" selection-end-column="10" />
+            <state relative-caret-position="138">
+              <caret line="110" column="46" selection-start-line="110" selection-start-column="46" selection-end-line="110" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/NormalStrategy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="56" selection-start-column="56" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -135,17 +153,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Product.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/NormalStrategy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+            <state relative-caret-position="180">
+              <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -153,7 +162,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Tax.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
+            <state relative-caret-position="105">
               <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
               <folding>
                 <element signature="e#93#94#0" expanded="true" />
@@ -194,20 +203,20 @@
         <option value="$PROJECT_DIR$/tests/PetRockTest.java" />
         <option value="$PROJECT_DIR$/src/Items.java" />
         <option value="$PROJECT_DIR$/src/Tax.java" />
-        <option value="$PROJECT_DIR$/src/Customer.java" />
         <option value="$PROJECT_DIR$/src/Category.java" />
-        <option value="$PROJECT_DIR$/src/Product.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/BillingStrategy.java" />
-        <option value="$PROJECT_DIR$/src/NormalStrategy.java" />
-        <option value="$PROJECT_DIR$/src/ExemptionStrategy.java" />
-        <option value="$PROJECT_DIR$/src/Invoice.java" />
+        <option value="$PROJECT_DIR$/src/Customer.java" />
+        <option value="$PROJECT_DIR$/src/Product.java" />
         <option value="$PROJECT_DIR$/tests/InvoiceTest.java" />
+        <option value="$PROJECT_DIR$/src/ExemptionStrategy.java" />
+        <option value="$PROJECT_DIR$/src/NormalStrategy.java" />
+        <option value="$PROJECT_DIR$/src/Invoice.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="812" />
@@ -219,6 +228,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -226,29 +236,20 @@
               <item name="Invoice" type="b2602c69:ProjectViewProjectNode" />
               <item name="Invoice" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Invoice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Invoice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Invoice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Invoice" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/.gitignore" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -274,47 +275,51 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.InvoiceTest">
+  <component name="RunManager" selected="JUnit.InvoiceTest.WhenProductsNotExemptedFromTax">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in Invoice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Invoice" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InvoiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="InvoiceTest.TestWhenProductsAreNotExemptedFromTax" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Invoice" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="InvoiceTest" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InvoiceTest.printInvoice1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Invoice" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="InvoiceTest" />
-      <option name="METHOD_NAME" value="printInvoice1" />
+      <option name="METHOD_NAME" value="TestWhenProductsAreNotExemptedFromTax" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InvoiceTest.printInvoice2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="InvoiceTest.WhenProductsExemptedFromTax" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Invoice" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="InvoiceTest" />
-      <option name="METHOD_NAME" value="printInvoice2" />
+      <option name="METHOD_NAME" value="WhenProductsExemptedFromTax" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InvoiceTest.WhenProductsNotExemptedFromTax" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Invoice" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="InvoiceTest" />
+      <option name="METHOD_NAME" value="WhenProductsNotExemptedFromTax" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InvoiceTest.WhenSingleProductExemptedFromTax" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Invoice" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="InvoiceTest" />
+      <option name="METHOD_NAME" value="WhenSingleProductExemptedFromTax" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -347,19 +352,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.InvoiceTest" />
-      <item itemvalue="JUnit.InvoiceTest.printInvoice1" />
-      <item itemvalue="JUnit.InvoiceTest.printInvoice2" />
-      <item itemvalue="JUnit.All in Invoice" />
       <item itemvalue="JUnit.InvoiceTest.printInvoice3" />
+      <item itemvalue="JUnit.InvoiceTest.TestWhenProductsAreNotExemptedFromTax" />
+      <item itemvalue="JUnit.InvoiceTest.WhenProductsExemptedFromTax" />
+      <item itemvalue="JUnit.InvoiceTest.WhenSingleProductExemptedFromTax" />
+      <item itemvalue="JUnit.InvoiceTest.WhenProductsNotExemptedFromTax" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.InvoiceTest" />
+        <item itemvalue="JUnit.InvoiceTest.WhenProductsNotExemptedFromTax" />
+        <item itemvalue="JUnit.InvoiceTest.WhenProductsExemptedFromTax" />
+        <item itemvalue="JUnit.InvoiceTest.WhenSingleProductExemptedFromTax" />
         <item itemvalue="JUnit.InvoiceTest.printInvoice3" />
-        <item itemvalue="JUnit.InvoiceTest.printInvoice2" />
-        <item itemvalue="JUnit.All in Invoice" />
-        <item itemvalue="JUnit.InvoiceTest.printInvoice1" />
+        <item itemvalue="JUnit.InvoiceTest.TestWhenProductsAreNotExemptedFromTax" />
       </list>
     </recent_temporary>
   </component>
@@ -377,55 +382,55 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="InvoiceTest - 2018.08.11 at 21h 50m 19s.xml">
-      <configuration name="InvoiceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InvoiceTest - 2018.08.11 at 21h 52m 04s.xml">
-      <configuration name="InvoiceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InvoiceTest - 2018.08.11 at 21h 52m 57s.xml">
-      <configuration name="InvoiceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InvoiceTest - 2018.08.11 at 21h 53m 36s.xml">
-      <configuration name="InvoiceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InvoiceTest - 2018.08.11 at 21h 55m 43s.xml">
-      <configuration name="InvoiceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InvoiceTest_printInvoice2 - 2018.08.11 at 21h 57m 21s.xml">
-      <configuration name="InvoiceTest.printInvoice2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InvoiceTest - 2018.08.11 at 21h 57m 27s.xml">
-      <configuration name="InvoiceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InvoiceTest_printInvoice3 - 2018.08.11 at 21h 58m 50s.xml">
+    <history-entry file="InvoiceTest_printInvoice3 - 2018.11.20 at 19h 17m 41s.xml">
       <configuration name="InvoiceTest.printInvoice3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InvoiceTest - 2018.08.11 at 21h 59m 19s.xml">
-      <configuration name="InvoiceTest" configurationId="JUnit" />
+    <history-entry file="InvoiceTest_TestWhenProductsAreNotExemptedFromTax - 2018.11.20 at 21h 52m 13s.xml">
+      <configuration name="InvoiceTest.TestWhenProductsAreNotExemptedFromTax" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InvoiceTest - 2018.08.11 at 21h 59m 25s.xml">
-      <configuration name="InvoiceTest" configurationId="JUnit" />
+    <history-entry file="InvoiceTest_printInvoice3 - 2018.11.20 at 21h 56m 23s.xml">
+      <configuration name="InvoiceTest.printInvoice3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InvoiceTest_WhenProductsExemptedFromTax - 2018.11.20 at 22h 06m 51s.xml">
+      <configuration name="InvoiceTest.WhenProductsExemptedFromTax" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InvoiceTest_WhenSingleProductExemptedFromTax - 2018.11.20 at 22h 07m 30s.xml">
+      <configuration name="InvoiceTest.WhenSingleProductExemptedFromTax" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InvoiceTest_WhenProductsExemptedFromTax - 2018.11.20 at 22h 07m 34s.xml">
+      <configuration name="InvoiceTest.WhenProductsExemptedFromTax" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InvoiceTest_WhenProductsExemptedFromTax - 2018.11.20 at 22h 16m 04s.xml">
+      <configuration name="InvoiceTest.WhenProductsExemptedFromTax" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InvoiceTest_WhenProductsNotExemptedFromTax - 2018.11.20 at 22h 16m 12s.xml">
+      <configuration name="InvoiceTest.WhenProductsNotExemptedFromTax" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InvoiceTest_WhenProductsExemptedFromTax - 2018.11.20 at 22h 23m 11s.xml">
+      <configuration name="InvoiceTest.WhenProductsExemptedFromTax" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InvoiceTest_WhenProductsNotExemptedFromTax - 2018.11.20 at 22h 23m 18s.xml">
+      <configuration name="InvoiceTest.WhenProductsNotExemptedFromTax" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="812" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="779" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32916668" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32916668" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32896653" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32916668" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32896653" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32916668" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -444,18 +449,31 @@
     <entry file="file://$PROJECT_DIR$/tests/PetRockTest.java" />
     <entry file="file://$PROJECT_DIR$/src/PetRock.java" />
     <entry file="file://$PROJECT_DIR$/src/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/BillingStrategy.java">
+    <entry file="file://$PROJECT_DIR$/src/NormalStrategy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="49" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="49" />
+        <state>
+          <caret column="56" selection-start-column="56" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tax.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+          <folding>
+            <element signature="e#93#94#0" expanded="true" />
+            <element signature="e#145#146#0" expanded="true" />
+            <element signature="e#223#224#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        <state relative-caret-position="180">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#118#119#0" expanded="true" />
             <element signature="e#165#166#0" expanded="true" />
             <element signature="e#209#210#0" expanded="true" />
@@ -468,15 +486,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ExemptionStrategy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="57" selection-start-line="4" selection-start-column="57" selection-end-line="4" selection-end-column="57" />
+        <state>
+          <caret column="59" selection-start-column="59" selection-end-column="59" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Invoice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="26" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
+        <state relative-caret-position="189">
+          <caret line="36" column="41" lean-forward="true" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -487,36 +505,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/BillingStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" lean-forward="true" selection-start-column="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Product.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NormalStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tax.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
-          <folding>
-            <element signature="e#93#94#0" expanded="true" />
-            <element signature="e#145#146#0" expanded="true" />
-            <element signature="e#223#224#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="180">
+          <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/InvoiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="480">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -525,8 +531,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1005">
-          <caret line="67" column="10" lean-forward="true" selection-start-line="67" selection-start-column="10" selection-end-line="67" selection-end-column="10" />
+        <state relative-caret-position="138">
+          <caret line="110" column="46" selection-start-line="110" selection-start-column="46" selection-end-line="110" selection-end-column="46" />
         </state>
       </provider>
     </entry>

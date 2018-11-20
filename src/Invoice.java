@@ -4,13 +4,23 @@ public class Invoice {
     private double sales_tax;
     private double sum;
 
-    BillingStrategy normalStrategy    = new NormalStrategy();
-    BillingStrategy exemptionStrategy = new ExemptionStrategy();
+    BillingStrategy normalStrategy;
+    BillingStrategy exemptionStrategy;
 
     public Invoice() {
         this.total = 0;
         this.sales_tax = 0;
         this.sum = 0;
+        this.normalStrategy = new NormalStrategy();
+        this.exemptionStrategy = new ExemptionStrategy();
+    }
+
+    public double getTotal() {
+        return total;
+    }
+
+    public double getSales_tax() {
+        return sales_tax;
     }
 
     public void printInvoice(Customer customer){
@@ -31,13 +41,5 @@ public class Invoice {
         total = sum + sales_tax;
         System.out.println("Sales Tax: "+ sales_tax);
         System.out.println("Total: "+total);
-    }
-
-    public double getTotal() {
-        return total;
-    }
-
-    public double getSales_tax() {
-        return sales_tax;
     }
 }

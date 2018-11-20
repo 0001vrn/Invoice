@@ -1,18 +1,19 @@
-import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
 
 public class Customer {
 
-    private ArrayList<Product> products;
+    private List<Product> products;
 
     public Customer() {
-        this.products = new ArrayList();
+        this.products = new LinkedList<>();
     }
 
     public  void addProduct(Product item){
         products.add(item);
     }
 
-    public ArrayList<Product> getProducts() {
+    public List<Product> getProducts() {
         return products;
     }
 }

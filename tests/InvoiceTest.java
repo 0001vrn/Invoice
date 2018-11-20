@@ -15,12 +15,10 @@ public class InvoiceTest {
     }
 
     @Test
-    public void printInvoice1(){
-        Product book = new Product();
-        book.build("1,book,30,0");
+    public void WhenProductsExemptedFromTax(){
+        Product book = new Product("1,book,30,0");
 
-        Product chocolate = new Product();
-        chocolate.build("1,chocolate,1,0");
+        Product chocolate = new Product("1,chocolate,1,0");
 
         customer.addProduct(book);
         customer.addProduct(chocolate);
@@ -32,17 +30,13 @@ public class InvoiceTest {
     }
 
     @Test
-    public void printInvoice2() {
+    public void WhenProductsNotExemptedFromTax() {
 
-        Product bottle_of_wine = new Product();
-        bottle_of_wine.build("1,bottle_of_wine,20,0");
+        Product bottle_of_wine = new Product("1,bottle_of_wine,20,0");
 
-        Product box_of_headache_pills = new Product();
-        box_of_headache_pills.build("2,box_of_headache_pills,4,1");
+        Product box_of_headache_pills = new Product("2,box_of_headache_pills,4,1");
 
-        Product box_of_pens = new Product();
-        box_of_pens.build("1,box_of_pens,10,0");
-
+        Product box_of_pens = new Product("1,box_of_pens,10,0");
 
         customer.addProduct(bottle_of_wine);
         customer.addProduct(box_of_headache_pills);
@@ -57,9 +51,8 @@ public class InvoiceTest {
 
 
     @Test
-    public void printInvoice3(){
-        Product pen = new Product();
-        pen.build("1,pen,5,0");
+    public void WhenSingleProductExemptedFromTax(){
+        Product pen = new Product("1,pen,5,0");
 
         customer.addProduct(pen);
 

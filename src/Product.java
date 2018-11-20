@@ -4,15 +4,15 @@ public class Product {
     public double price;
     public int quantity;
 
-    public void build(String val){
+    public Product(String val) {
         String[] arr = val.split(",");
-        quantity = Integer.parseInt(arr[0]);
-        name = arr[1];
-        price = Double.parseDouble(arr[2]);
+        this.quantity = Integer.parseInt(arr[0]);
+        this.name = arr[1];
+        this.price = Double.parseDouble(arr[2]);
         if(arr[3].equals("1")) {
-            type = Category.MEDICAL;
+            this.type = Category.MEDICAL;
         } else{
-            type = Category.NON_MEDICAL;
+            this.type = Category.NON_MEDICAL;
         }
     }
 }
